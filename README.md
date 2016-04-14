@@ -3,7 +3,6 @@ release-android-library
 
 Remote script to create a maven compatible release of an android library (aar). This release comes in a zip or exploded form and is only created locally inside your own build folder. You can these use these files to release to JCenter or Maven Central.
 
-Matching blog post here: [blog.blundell-apps.com/locally-release-an-android-library-for-jcenter-or-maven-central-inclusion/](http://blog.blundell-apps.com/locally-release-an-android-library-for-jcenter-or-maven-central-inclusion/)
 
 ####adding to your library
 ```
@@ -25,8 +24,6 @@ dependencies {
 
 // Copy the file locally and use
 apply from: 'android-release-aar.gradle'
-// or use the remote copy to keep update with latest changes
-apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
 ```
 
 
