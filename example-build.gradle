@@ -20,5 +20,5 @@ android {
 dependencies {
     // Whatever your dependencies are
 }
-
-apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
+// add file locally
+apply from: 'android-release-aar.gradle'
