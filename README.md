@@ -9,8 +9,8 @@ Remote script to create a maven compatible release of an android library (aar). 
 apply plugin: 'com.android.library'
 
 ext {
-    PUBLISH_GROUP_ID = 'com.blundell'
-    PUBLISH_ARTIFACT_ID = 'example-library-name'
+    PUBLISH_GROUP_ID = 'id-library'
+    PUBLISH_ARTIFACT_ID = 'library-name'
     PUBLISH_VERSION = '1.0.0'
 }
 
