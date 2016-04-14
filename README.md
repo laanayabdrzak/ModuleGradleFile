@@ -35,12 +35,13 @@ apply from: 'android-release-aar.gradle'
 
 
 ```
- :engine:zipRelease
- :engine:generateRelease
- Release 1.0.0 can be found at /Users/Blundell/Developer/git_repo/ExampleAndroidLibrary/build/release/1.0.0/
- Release 1.0.0 zipped can be found /Users/Blundell/Developer/git_repo/ExampleAndroidLibrary/build/release-1.0.0.zip
+:rxconnectivitystatus:zipRelease
+:rxconnectivitystatus:generateRelease
+Release 1.0 can be found at /Users/abderrazak/AndroidStudioProjects/GitRepository/RxConnectivityState/rxconnectivitystatus/build/release/1.0/
+Release 1.0 zipped can be found /Users/abderrazak/AndroidStudioProjects/GitRepository/RxConnectivityState/rxconnectivitystatus/build/release-1.0.zip
 
- BUILD SUCCESSFUL
- 
- Total time: 23.609 secs
+BUILD SUCCESSFUL
+
+Total time: 2 mins 5.672 secs
+
 ```
